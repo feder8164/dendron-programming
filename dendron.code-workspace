@@ -1,0 +1,60 @@
+{
+    "folders": [
+        {
+            "name": "vault",
+            "path": "vault"
+        },
+        {
+            "path": "vault2",
+            "name": "vault2"
+        }
+    ],
+    "settings": {
+        "files.autoSave": "onFocusChange",
+        "pasteImage.path": "${currentFileDir}/assets/images",
+        "pasteImage.prefix": "/",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true,
+        "editor.tabCompletion": "on",
+        "dendron.defaultScratchAddBehavior": "childOfCurrent",
+        "dendron.defaultScratchDateFormat": "DD",
+        "dendron.rootDir": ".",
+        "anki.md.card.tagPattern": "^\\[\\[(.*)\\]\\]",
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#78c67b",
+            "activityBar.activeBorder": "#6662bd",
+            "activityBar.background": "#78c67b",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#6662bd",
+            "activityBarBadge.foreground": "#e7e7e7",
+            "statusBar.background": "#54b758",
+            "statusBar.foreground": "#15202b",
+            "statusBarItem.hoverBackground": "#409844",
+            "titleBar.activeBackground": "#54b758",
+            "titleBar.activeForeground": "#15202b",
+            "titleBar.inactiveBackground": "#54b75899",
+            "titleBar.inactiveForeground": "#15202b99"
+        },
+        "peacock.color": "54B758"
+    },
+    "extensions": {
+        "recommendations": [
+            "dendron.dendron-paste-image",
+            "equinusocio.vsc-material-theme",
+            "dendron.dendron-markdown-shortcuts",
+            "dendron.dendron-markdown-preview-enhanced",
+            "dendron.dendron-markdown-links",
+            "github.github-vscode-theme"
+        ],
+        "unwantedRecommendations": [
+            "dendron.dendron-markdown-notes",
+            "shd101wyy.markdown-preview-enhanced",
+            "kortina.vscode-markdown-notes",
+            "mushan.vscode-paste-image"
+        ]
+    }
+}

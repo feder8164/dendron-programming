@@ -1,0 +1,29 @@
+version: 1
+imports: []
+schemas:
+  - id: dendron
+    title: dendron
+    desc: ""
+    parent: root
+    children: 
+      - funkcje
+      - koncepcje
+      - tematy
+      - skroty
+
+  - id: funkcje
+    children: 
+      - schematy
+  - id: schematy
+
+  - id: koncepcje
+    children: 
+      - domena
+      - krypty
+      - schematy
+  - id: domena
+  - id: krypty
+  - id: schematy
+  
+  - id: tematy
+  - id: skroty

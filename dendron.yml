@@ -1,0 +1,13 @@
+version: 1
+vaults:
+    -
+        fsPath: vault
+    -
+        fsPath: vault2
+        name: vault2
+site:
+    copyAssets: true
+    siteHierarchies:
+        - root
+    siteRootDir: docs
+    usePrettyRefs: true

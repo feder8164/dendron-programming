@@ -1,0 +1,22 @@
+version: 1
+imports: []
+schemas:
+  - id: root
+    title: root
+    parent: root
+    children:
+      - ang
+      - ts
+      - css
+      - html
+
+  - id: ang
+    desc: angular
+  
+  - id: ts
+    desc: typescript
+
+  - id: css
+
+  - id: html
+
